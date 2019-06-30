@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: ".env",
-})
-
 module.exports = {
   siteMetadata: {
     title: `Gatsby static site with headless CMS`,
@@ -39,9 +35,9 @@ module.exports = {
          * The base URL of the Wordpress site without the trailingslash and the protocol. This is required.
          * Example : 'gatsbyjsexamplewordpress.wordpress.com' or 'www.example-site.com'
          */
-        baseUrl: process.env.API_URL,
+        baseUrl: "wordpress.net",
         // The protocol. This can be http or https.
-        protocol: process.env.API_PROTOCOL,
+        protocol: "http",
         // Indicates whether the site is hosted on wordpress.com.
         // If false, then the assumption is made that the site is self hosted.
         // If true, then the plugin will source its content on wordpress.com using the JSON REST API V2.
