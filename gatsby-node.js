@@ -13,7 +13,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   createRedirect({
     fromPath: "/",
-    toPath: "/home",
+    toPath: "/",
     redirectInBrowser: true,
     isPermanent: true,
   })
