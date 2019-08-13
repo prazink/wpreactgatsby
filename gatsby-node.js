@@ -24,25 +24,29 @@ exports.createPages = ({ graphql, actions }) => {
     // from the fetched data that you can run queries against.
 
     // ==== PAGES (WORDPRESS NATIVE) ====
-    graphql(
-      `
-        {
-          allWordpressPage {
-            edges {
-              node {
-                id
-                slug
-                status
-                template
-                title
-                featured_media {
-                  source_url
-                }
-                content
-                template
-              }
-            }
+    const result = await graphql(`
+    {
+      wordpressPage(title: { eq: "Home" }) {
+        id
+        link
+        status
+        template
+        slug
+        title
+        content
+      }
+      allWordpressPage(filter: { title: { ne: "Home" } }) {
+        edges {
+          node {
+            id
+            title
+            content
+            slug
+            status
+            template
           }
+        }
+      }
         }
       `
     )
