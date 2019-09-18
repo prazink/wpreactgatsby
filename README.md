@@ -10,7 +10,7 @@ wpreactgatsby
 
 <h2>Headless CMS with WordPress, REACT, Gatsby and GraphQL</h2>
 
-<p>A portfolio website at initial setup and development of Gatsby JS and Wordpress locally, creating Wordpress template files and mapping them to React components, and querying Wordpress data with GraphQL to automatically generate our static pages.</p>
+<p>A portfolio website at initial setup and development of Gatsby JS and Wordpress locally, creating Wordpress template files and mapping them to React components, and querying Wordpress data with GraphQL to automatically generate a static pages.</p>
 
 <p>Query Wordpress data with GraphQL using the GraphiQL browser tool.</p>
 
