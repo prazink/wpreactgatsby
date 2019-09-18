@@ -12,6 +12,6 @@ wpreactgatsby
 
 <p>A portfolio website at initial setup and development of Gatsby JS and Wordpress locally, creating Wordpress template files and mapping them to React components, and querying Wordpress data with GraphQL to automatically generate a static pages.</p>
 
-<p>Query Wordpress data with GraphQL using the GraphiQL browser tool.</p>
+<p>Query Wordpress data with GraphQL using the GraphQL browser tool.</p>
 
 <p>Setting up and deploying a live website using Netlify that re-builds our static web pages every time we update content in our Wordpress backend.</p>
