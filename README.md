@@ -14,4 +14,4 @@ wpreactgatsby
 
 <p>Query Wordpress data with GraphQL using the GraphQL browser tool.</p>
 
-<p>Setting up and deploying a live website using Netlify that re-builds our static web pages every time we update content in our Wordpress backend.</p>
+<p>Setting up and deploying a live website using Netlify that re-builds the static web pages every time we update content in the Wordpress backend.</p>
